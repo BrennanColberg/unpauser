@@ -11,4 +11,6 @@ Waiting in an Apple Store for 2.5 hours, I decided to learn AppleScript... by en
 curl https://raw.githubusercontent.com/BrennanColberg/unpauser/master/setup.sh | bash
 alias unpause="osascript ~/.unpauser/play.applescript; osascript ~/.unpauser/pause.applescript"
 ```
-4. Type `unpause` and press enter!
+4. Open iTunes (from the dock) and choose a song to play
+5. Go back to Terminal, type `unpause`, and press enter
+6. Once you're done, press CONTROL (_not COMMAND_) + C to stop
